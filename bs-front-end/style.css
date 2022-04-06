@@ -1,0 +1,41 @@
+@font-face {
+  font-family: GothamPro;
+  src: url(GothamPro.ttf);
+}
+
+@font-face {
+  font-family: GothamProBold;
+  src: url(GothamPro-Bold.ttf);
+  font-weight: bold;
+}
+
+:root {
+  --black: rgb(42,42,42);
+  --cream: rgb(247, 188, 88);
+  --white: rgb(245,245,245);
+}
+
+body, html {
+  height: 100vh;
+  background-color: var(--white);
+  font-family: GothamPro, sans-serif;
+  color: var(--black);
+}
+
+.font-test {
+  font-family: GothamProBold, sans-serif;
+  color: var(--black);
+}
+
+.color-black {
+  color: var(--black) !important;
+}
+
+.bg-image {
+  height: 100vh;
+  background-image: url(hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
