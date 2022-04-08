@@ -12,15 +12,15 @@
 :root {
   --black: rgb(42,42,42);
   --cream: rgb(247, 188, 88);
-  --white: rgb(245,245,245);
+  --white: rgb(240, 240, 240);
 }
 
 body, html {
   height: 100vh;
-  background-color: var(--white);
   font-family: GothamPro, sans-serif;
   color: var(--black);
 }
+
 
 .font-test {
   font-family: GothamProBold, sans-serif;
@@ -28,14 +28,69 @@ body, html {
 }
 
 .color-black {
-  color: var(--black) !important;
+  color: var(--black);
+}
+
+.color-cream {
+  color: var(--cream);
+}
+
+.color-gray {
+  color: grey;
+}
+
+.bg-color-cream {
+ color: var(--cream);
 }
 
 .bg-image {
   height: 100vh;
-  background-image: url(hero.jpg);
+  background-image: url(tinified/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
+}
+
+.history-year-color {
+  color: rgb(95, 95, 95);
+}
+
+.swiper {
+  width: 100%;
+  height: 25%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 22rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.my-bg-gray {
+  background-color: var(--white); 
+}
+
+.news-text-on-image {
+  background-color: var(--cream);
+  padding: 1rem;
+  color: white;
+}
+
+.bg-real-black {
+  background-color: #2a2a2a;
+}
+
+.hovered:hover {
+  background-color: var(--cream);
+  color: white !important;
+}
+
+a.btn:hover {
+  background-color: rgb(240, 169, 46) !important;
+}
+
+#kontol:hover {
+  background-color: rgb(240, 169, 46) !important;
 }
